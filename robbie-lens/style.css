@@ -29,11 +29,12 @@ p{
 .cta{
     background: linear-gradient(#8e86b5, #acaeed);
     color: white;
-    border: 50px solid white;
+    border-radius: 50px solid white;
 }
 
 .border{
-    border: 1px solid #8e86b5
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
 }
 
 .links:hover{
@@ -46,4 +47,9 @@ p{
 
 .social:hover{
     opacity: 0.5;
+}
+
+header,
+footer {
+  background-color: white;
 }
